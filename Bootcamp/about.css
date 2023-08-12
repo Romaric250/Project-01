@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: poppins, sans-serif;
+  font-weight: bolder;
+}
+
+.instructor-image img {
+  width: 100px;
+  height: 100px;
+}
+
+/*the navbar*/
+.nav_left {
+  display: flex;
+  margin: 1rem;
+  margin-left: 13rem;
+  justify-content: space-between;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+h1 {
+  margin-left: 1rem;
+  margin-top: 10px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(11, 88, 147);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-items: flex-end;
+  align-items: center;
+  margin-right: 13rem;
+}
+
+.navbar>.nav_right>.options>a {
+  margin: 1rem;
+  color: rgb(36, 36, 130);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  transition: opacity 0.5s;
+  text-decoration: none;
+}
+
+
+.navbar>.nav_right>.options>a:hover {
+  color: white;
+}
+
+.navbar>.nav_right>.options>a:active {
+  color: white;
+  opacity: 0.5;
+}
+.nav_right>.options>h1 {
+  color: white;
+}
+
+.nav_right>.options>button {
+  background-color: gold;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  color: rgb(50, 46, 46);
+  font-family: poppins, sans-serif;
+  font-weight: bolder;
+  border: solid gold;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.nav_right>.options>button:hover {
+  background-color: goldenrod;
+}
+
+.nav_right>.options>button:active {
+  background-color: goldenrod;
+  opacity: 0.5;
+}
+
+/*the end of the navbar*/
+/*the header container*/
+.page_container>.header_container {
+  background: url(Annotation.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.page_container>.header_container>.header_information {
+  background-color: rgb(11, 88, 147);
+  width: 80%;
+  height: 80vh;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.page_container>.header_container>.header_information>.header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.page_container>.header_container>.header_information>.header1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/*the end of the header container*/
+
+
+/*footercontainer*/
+.footercontainer {
+  height: 45vh;
+  background-color: rgb(6, 37, 61);
+}
+
+.footercontainer>.informations {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 50px;
+}
+
+.footercontainer>.informations>.eligibility {
+  height: 55%;
+  width: 30%;
+  margin-left: 150px;
+}
+
+.footercontainer>.informations>.eligibility>h6 {
+  font-size: 18px;
+}
+
+.footercontainer>.informations>.eligibility>h6>strong {
+  color: gold;
+}
+
+.footercontainer>.informations>.eligibility>.requirements {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.footercontainer>.informations>.eligibility>.requirements>li {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.footercontainer>.informations>.useful {
+  margin-right: 50px;
+}
+
+.footercontainer>.informations>.useful>h7 {
+  font-size: 18px;
+}
+
+.footercontainer>.informations>.useful>h7>strong {
+  color: gold;
+}
+
+.footercontainer>.informations>.useful>.links {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.footercontainer>.informations>.useful>.links>li {
+  font-size: 13px;
+}
+
+.footercontainer>.informations>.address {
+  height: 30%;
+  margin-right: 250px;
+}
+
+.footercontainer>.informations>.address>h8 {
+  font-size: 18px;
+}
+
+.footercontainer>.informations>.address>.contacts {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.footercontainer>.informations>.address>.contacts>li {
+  font-size: 13px;
+}
+
+.footercontainer>.informations>.icons {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.footercontainer>span {
+  color: white;
+  margin-left: 550px;
+}
+
+/*the of the footercontainer*/
